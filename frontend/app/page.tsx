@@ -56,7 +56,7 @@ export default function Home() {
 
     try {
       const response = await fetch(
-        "http://127.0.0.1:8000/chat",
+        "https://ai-saurabh-voicebot.onrender.com/chat",
         {
           method: "POST",
           headers: {
